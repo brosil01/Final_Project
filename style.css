@@ -1,10 +1,14 @@
+/* -----------------------------
+   Brosil Bajracharya's Portfolio Website
+   CSC 317 Final Project Stylesheet
+   ----------------------------- */
 
 body {
   margin: 0;
   font-family: 'Segoe UI', sans-serif;
   background-color: black;
   color: white;
-  padding-top: 70px; /* Space for fixed navbar */
+  padding-top: 70px; 
 
 }
 
@@ -87,10 +91,17 @@ nav ul li a:hover {
   margin: auto;
 }
 
+.skills {
+  padding: 40px 20px 10px; /* Less bottom padding */
+  text-align: center;
+}
+
 .projects {
   padding: 40px 20px;
   text-align: center;
+  margin-bottom: 100px;
 }
+
 .projects a {
   text-decoration: none;
   color: purple;
@@ -99,13 +110,6 @@ nav ul li a:hover {
   text-decoration: underline;
 }
 
-footer {
-  background: purple;
-  color: white;
-  text-align: center;
-  padding: 20px;
-  font-size: 0.9em;
-}
 
 .project-card {
   margin-top: 30px;
@@ -126,16 +130,6 @@ footer {
 }
 .project-card p a:hover {
   text-decoration: underline;
-}
-.skills {
-  padding: 40px 20px 10px; /* Less bottom padding */
-  text-align: center;
-}
-
-.projects {
-  padding: 20px 20px;
-  text-align: center;
-  margin-bottom: 100px;
 }
 
 .contact-section {
@@ -184,6 +178,14 @@ footer {
 
 .contact-form button:hover {
   background-color: #aa00aa;
+}
+
+footer {
+  background: purple;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  font-size: 0.9em;
 }
 
 
