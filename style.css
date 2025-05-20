@@ -28,6 +28,16 @@ nav .logo {
   font-weight: bold;
 }
 
+nav .logo a {
+  color: white;
+  text-decoration: none;
+}
+
+nav .logo a:hover {
+  text-decoration: underline;
+}
+
+
 nav ul {
   list-style: none;
   display: flex;
@@ -126,6 +136,54 @@ footer {
   padding: 20px 20px;
   text-align: center;
   margin-bottom: 100px;
+}
+
+.contact-section {
+  padding: 60px 20px;
+  text-align: center;
+  background-color: #1a1a1a;
+}
+
+.contact-section h2 {
+  margin-bottom: 20px;
+  font-size: 2em;
+  color: #fff;
+}
+
+.contact-form {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: none;
+  border-radius: 8px;
+  font-size: 1em;
+  background-color: #333;
+  color: #fff;
+}
+
+.contact-form input::placeholder,
+.contact-form textarea::placeholder {
+  color: #ccc;
+}
+
+.contact-form button {
+  padding: 12px 25px;
+  font-size: 1em;
+  background-color: purple;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background-color: #aa00aa;
 }
 
 
