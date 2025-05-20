@@ -1,0 +1,49 @@
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #111;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+.calculator {
+  background: black;
+  border-radius: 20px;
+  padding: 20px;
+  width: 320px;
+}
+.display {
+  background: #1c1c1c;
+  border-radius: 10px;
+  text-align: right;
+  font-size: 2em;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+button {
+  height: 60px;
+  font-size: 1.5em;
+  border: none;
+  border-radius: 50%;
+  color: white;
+  background: #333;
+}
+button.orange {
+  background: orange;
+}
+button.gray {
+  background: #aaa;
+  color: black;
+}
+button.zero {
+  grid-column: span 2;
+  border-radius: 30px;
+}

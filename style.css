@@ -1,0 +1,87 @@
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: black;
+  color: white;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  color: white;
+}
+nav .logo {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  padding: 8px 12px;
+}
+nav ul li a.btn {
+  background: #fff;
+  color: purple;
+  border-radius: 5px;
+}
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+.myself {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 20px;
+  gap: 30px;
+  text-align: center;
+}
+.myself-img img {
+  width: 320px;
+  border-radius: 12px;
+  object-fit: cover;
+}
+.myself-text h1 {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+.myself-text span {
+  color: purple;
+}
+.myself-text p {
+  font-size: 1.1em;
+  max-width: 600px;
+  margin: auto;
+}
+
+.projects {
+  padding: 40px 20px;
+  text-align: center;
+}
+.projects a {
+  text-decoration: none;
+  color: purple;
+}
+.projects a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  background: purple;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  font-size: 0.9em;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
